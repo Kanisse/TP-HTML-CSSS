@@ -1,0 +1,82 @@
+
+body{ background-color: rgb(215, 223, 232);
+    width: 80%;
+    margin: auto;
+font-family: sans-serif;}
+    
+.navbar{    width: 80%;   margin: auto;   height: 50px;box-shadow: 5px 10px 10px 10px black;}
+ul{  padding: 5px; background-color: rgb(217, 229, 244);  height: 100%;  width: auto;
+    align-items: center; justify-content: space-between;
+    display: flex;   padding-right: 20px;
+}
+li{    list-style: none;}
+a{    text-decoration: none;}
+a:hover{  color:blue;  background-color: bisque;}
+
+.carte{
+    color: rgb(219, 233, 245);
+    width: 30%;
+    height: auto;
+    padding: 5px 5px 5px 10px;
+    background-color: rgb(130, 130, 150);
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px 5px black ;
+}
+
+.carte:hover{
+    background-color: rgb(139, 139, 185);
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{    margin-top: 100px;}
+form{    width: 80%;    margin: auto;}
+
+input[type=text] { font-size: large; background-color: rgba(221, 221, 235, 0.598);width: 60%;
+height: 50px;border-radius: 5px;}
+
+input[type=submit]{    height: 50px;  color: aliceblue;  border-radius: 5px;
+    width: 200px;    background-color: rgb(28, 19, 205);
+}
+button{
+    background-color: lightblue;
+    width: 100px;
+    height: 40px;
+}
+
+.maps{
+    margin-top: 100px;
+}
+.contactpage{
+    display: flex;
+}
+.contact{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+
+form{
+   background-color: white; 
+   font-size: x-large;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   box-shadow: 5px 5px gray;
+}
+
+form input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+form textarea{
+    border-radius: 10px;
+}
+
+table tr td {
+    padding: 10px;
+}
