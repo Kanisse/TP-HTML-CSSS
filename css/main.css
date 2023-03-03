@@ -39,8 +39,8 @@ form{    width: 80%;    margin: auto;}
 input[type=text] { font-size: large; background-color: rgba(221, 221, 235, 0.598);width: 60%;
 height: 50px;border-radius: 5px;}
 
-input[type=submit]{    height: 50px;  color: aliceblue;  border-radius: 5px;
-    width: 200px;    background-color: rgb(28, 19, 205);
+input[type=submit]{    height: 50px;  color: rgb(7, 9, 11);  border-radius: 5px;
+    width: 200px;    background-color: rgb(68, 222, 54);
 }
 button{
     background-color: lightblue;
@@ -77,6 +77,4 @@ form textarea{
     border-radius: 10px;
 }
 
-table tr td {
-    padding: 10px;
-}
+
