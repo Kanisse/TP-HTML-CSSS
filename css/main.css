@@ -47,6 +47,10 @@ button{
     width: 100px;
     height: 40px;
 }
+button:hover{
+   background-color: beige;
+   color: black; 
+}
 
 .maps{
     margin-top: 100px;
@@ -77,4 +81,23 @@ form textarea{
     border-radius: 10px;
 }
 
+.services{
+    margin-top: 150px;
+    display: flex;
+}
 
+.serviceimage{
+    margin-left: 100px;
+}
+
+img:hover {
+opacity: 50%;
+}
+
+p{
+    text-align: center;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
