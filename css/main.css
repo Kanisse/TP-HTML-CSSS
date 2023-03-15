@@ -1,11 +1,17 @@
 
-body{ background-color: rgb(215, 223, 232);
+* { 
+    
+}
+    
+body{
+    background-color:azure;
+    font-family: sans-serif;
     width: 80%;
     margin: auto;
-font-family: sans-serif;}
-    
-.navbar{    width: 80%;   margin: auto;   height: 50px;box-shadow: 5px 10px 10px 10px black;}
-ul{  padding: 5px; background-color: rgb(217, 229, 244);  height: 100%;  width: auto;
+}
+.navbar{    width: 80%;   margin: auto;   height: 50px;
+    box-shadow: 5px 10px 10px 10px black;}
+ul{  padding: 5px; background-color: rgb(35, 117, 217);  height: 100%;  width: auto;
     align-items: center; justify-content: space-between;
     display: flex;   padding-right: 20px;
 }
@@ -18,7 +24,7 @@ a:hover{  color:blue;  background-color: bisque;}
     width: 30%;
     height: auto;
     padding: 5px 5px 5px 10px;
-    background-color: rgb(130, 130, 150);
+    background-color: rgb(49, 49, 205);
     margin-top: 100px;
     border-radius: 10px;
     box-shadow:5px 5px 5px 5px black ;
@@ -58,6 +64,7 @@ button:hover{
 .contactpage{
     display: flex;
 }
+
 .contact{
     margin-top: 100px;
     width: 100%;
@@ -100,4 +107,8 @@ p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
 
+}
+
+.header{
+    background-color: aqua; font-size: x-large;
 }
