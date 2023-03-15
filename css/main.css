@@ -141,12 +141,18 @@ i:hover{
     margin-top: 150px;
 }
 
-table {
+table.table1 {
 width: 100%;
 margin: auto;
 background-color: antiquewhite;
 border: 2px dotted blue;
 }
+table.table2 {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(210, 139, 46);
+    border: 2px dotted rgb(56, 191, 70);
+    }
 
 table tr td {
 width: 20%;
@@ -156,5 +162,12 @@ padding: 10px;
 
 table tr th {
    border :5px solid black;  
+}
+
+tr:nth-child(even){
+    background-color: bisque;
+}
+tr:nth-child(odd){
+    background-color: rgb(46, 204, 49);
 }
 
