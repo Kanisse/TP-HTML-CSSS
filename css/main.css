@@ -109,6 +109,16 @@ p{
 
 }
 
+.icons{
+    align-items: end;
+    justify-content: right;
+    display: flex;
+    padding: 10px ;
+    margin-right: 10px;
+    color: white;
+}
 .header{
-    background-color: aqua; font-size: x-large;
+    background-color: rgb(60, 56, 174); font-size: x-large;
+    display: flex;
+    color: white;
 }
