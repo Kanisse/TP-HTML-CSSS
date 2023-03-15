@@ -111,21 +111,50 @@ p{
 
 .header{
     background-color: rgb(60, 56, 174);
-    color: white;
+    color: #0ef;
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    font-weight: bold;
 }
 span.phone {
     text-align: left;
 }
-span.icons{
+
+span.icons
     align-items: end;
     text-align: right;
     display: flex;
-    color: white;
 }
 
 i {
-    margin-left: 10px;
+    margin-left: 30px;
+    padding: 5px;
 }
+
+i:hover{
+    background-color: #0ef;
+    color: black;
+}
+
+.table{
+    margin-top: 150px;
+}
+
+table {
+width: 100%;
+margin: auto;
+background-color: antiquewhite;
+border: 2px dotted blue;
+}
+
+table tr td {
+width: 20%;
+border: 5px solid #0ef;
+padding: 10px;
+}
+
+table tr th {
+   border :5px solid black;  
+}
+
