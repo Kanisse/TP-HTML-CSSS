@@ -109,16 +109,23 @@ p{
 
 }
 
-.icons{
-    align-items: end;
-    justify-content: right;
+.header{
+    background-color: rgb(60, 56, 174);
+    color: white;
     display: flex;
-    padding: 10px ;
-    margin-right: 10px;
+    justify-content: space-between;
+    padding: 10px;
+}
+span.phone {
+    text-align: left;
+}
+span.icons{
+    align-items: end;
+    text-align: right;
+    display: flex;
     color: white;
 }
-.header{
-    background-color: rgb(60, 56, 174); font-size: x-large;
-    display: flex;
-    color: white;
+
+i {
+    margin-left: 10px;
 }
